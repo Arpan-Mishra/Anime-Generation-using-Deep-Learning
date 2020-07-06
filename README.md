@@ -1,2 +1,2 @@
 # Anime-Generation-using-Deep-Learning
-Built text generation models using LSTM &amp; GPT2
+Built text generation models using LSTM & GPT2
