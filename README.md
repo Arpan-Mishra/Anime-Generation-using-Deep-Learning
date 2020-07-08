@@ -28,7 +28,7 @@
 * Hugging Face - Tokenizer, Transformer
 
 ## Description
-The aim of the project was to see how fas technology has come in just a few years when it comes to text generation. <br>
+The aim of the project was to see how far technology has come in just a few years when it comes to text generation. <br>
 I have used two techniques, LSTM and then a fine tuned GPT2 for generating text and the results are astounding!<br>
 
 ## Data
