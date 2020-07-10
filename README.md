@@ -52,9 +52,9 @@ are selected and one word is randomly sampled form them as the next token output
 Not that great right? The grammar is 70-80% correct but there is no sense in this at all.
 
 ### GPT2
-* I have used GPT2 with a linear model head from the [Hugging Face](https://huggingface.co/) library for text generation. There are 4 variants of GPT2, I have used GPT2 small which has 117M parameters<br> 
+* I have used GPT2 with a linear model head from the [Hugging Face](https://huggingface.co/) library for text generation. There are 4 variants of GPT2, I have used GPT2 small which has 117M parameters.<br> 
 * For fine tuning the first task is to get the data in the required format, dataloader in Pytorch allows us to that very easily. I appended the `<|endoftext|>` token after every synopsis. 
-* The main issue in training was figuring out the batch size and the maximum sequence length so that I don't run of out memory while training on GPU. 
+* The main issue in training was figuring out the batch size and the maximum sequence length so that I don't run out of memory while training on GPU. 
 I have used a batch size of 10 and maximum length of 300. 
 * The model was trained for 5 epochs. The synopsises with length < max length have been padded using the `<|pad|>` token.
 * The model consists of the GPT2 transformer (contains masked self attention and feed forward neural net) and has a language model head, which is similar to the LSTM based 
