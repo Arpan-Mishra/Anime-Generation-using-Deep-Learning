@@ -70,7 +70,9 @@ This almost sounds like a real Anime!<br>
 Here's another example: <br>
 <i> A shinigami who is a descendant of the legendary warrior Shigamis father, is sent to Earth to fight against the evil organization known as the Dark Clan. However, his mission is to steal the sacred sword, the Sword of Light, which is said to grant immortality to those who wield it. </i>
 
-Some more [generated anime synopsises](https://github.com/Arpan-Mishra/Anime-Generation-using-Deep-Learning/blob/master/GPT2%20Generator/Generated%20Anime%20Examples.txt) can be found here.
+Some more [generated anime synopsises](https://github.com/Arpan-Mishra/Anime-Generation-using-Deep-Learning/blob/master/GPT2%20Generator/Generated%20Anime%20Examples.txt) can be found here.<br>
+I have also published a blog on [Towards Data Science](https://towardsdatascience.com/lets-make-some-anime-using-deep-learning-d258806954f5) which explains the code in more detail.
+
 
 ## Credits
 * Fine tuning example: https://towardsdatascience.com/teaching-gpt-2-a-sense-of-humor-fine-tuning-large-transformer-models-on-a-single-gpu-in-pytorch-59e8cec40912
